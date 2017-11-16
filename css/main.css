@@ -1,0 +1,215 @@
+/*
+422D31 - escuro - 66 45 49 
+9B97A4 - médio - 155 151 164
+545970 - tom de cinza - 84 89 112
+DBDFF3 - claro - 219 223 243
+BE8472 - tom de bege - 190 132 114
+verde ´gua - 149ea1
+8E616A - 
+5B232E - vinho
+8E3647
+DB95A3 - rosa claro
+*/
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+.align {
+	padding-top: 3%;
+}
+
+.text-post {
+	padding-bottom: 5%;
+	padding-top: 5%;
+}
+
+.color-wine {
+	color: #8E3647;
+}
+
+.text-thin-300 {
+	font-weight: 300;
+}
+
+.header-fix {
+	height: 70px;
+	background-color: #422D31;
+	width: 98.1%;
+	position: fixed;
+	top: 0;
+}
+
+.content-home {
+	background-image: url("../img/homem-com-biblia.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 750px;
+}
+.text-white {
+	color: white;
+}
+
+.menu {
+	font-size: 18px;
+	padding-top: 5%;
+}
+
+.menu li {
+	display: inline;
+	margin-right: 20px;
+}
+
+.title-row {
+	padding-top: 12%;
+	margin-left: 5%;
+}
+
+.title-especial {
+	font-size: 72px;	
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.description-title {
+	border: 1px solid white;
+}
+
+.hr-title {
+	margin-top: 15%;	
+}
+
+.glyphicon {
+	font-size: 48px;
+}
+
+.align-glyphicon {
+	padding-top: 15%;
+	margin-left: 7%;
+}
+
+/*Rules Sobre*/
+
+.box-big-sobre {
+	border: 1px solid #DBDFF3;
+	border-radius: 10px;
+	padding: 30px;
+	height: 450px;
+}
+
+.box-smaller-sobre {
+	width: 200px;
+	height: 155px;
+	border: 1px solid #DBDFF3;
+	border-radius: 10px;
+	margin-bottom: 12px;
+}
+
+.list-sobre li {
+	list-style: none;
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+
+.list-sobre {
+	margin-top: 10%;
+}
+
+.row-sobre {
+	padding-bottom: 12%;
+	padding-top: 10%;
+
+    /*background: #9B97A4; /* For browsers that do not support gradients */   
+}
+
+.fundo-sobre {
+	background: linear-gradient(to right, transparent, transparent 50%,  #DBDFF3 50%, #9B97A4);
+	height: 750px;	
+	padding-bottom: 100px;
+}
+
+.conteudo-destaque {
+	background-image: url("../img/cruz-vazia.jpg");	
+	height: 400px;
+	background-size: 100%;
+
+}
+
+.description-destaques {
+	padding-top: 5%;
+	padding-left: 3%;
+}
+
+.posts-destaque,
+.posts-destaque img
+{
+	height: 600px;
+}
+
+.figure-post {
+	opacity: rgba(76, 175, 80, 0.5);
+}
+
+.figcaption-post{
+	position: absolute;
+	top: 50%;
+	left: 7%;
+	
+}
+
+/*Rules Contato*/
+.content-form {
+	background-image: url("../img/cruz-vazia.jpg");
+	height: 650px;
+	background-image: 100%;
+	background-repeat: no-repeat;
+	margin-top: 5%;
+}
+
+.opacity-form {
+	background: rgba(155, 151, 164, 0.8);
+	height: 650px;
+}
+
+.contato {
+	padding-top: 5%;
+}
+
+
+.col-contato {
+	padding-top: 3%;
+}
+
+.align-p {
+	padding-top: 9%;
+}
+
+
+/*Footer*/
+.container-footer {
+	width: 100%;
+	opacity: 0.9;
+	/*background: linear-gradient(to bottom left, transparent, transparent 40%,  #9B97A4 8%, #709FB8);*/
+	background-color: #5B232E;
+	height: 280px;
+	background-size: 100%;
+
+}
+
+
+/* background: rgba(76, 175, 80, 0.1);*/
+
+/*Página de estudos*/
+.row-posts {
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+.info-post {
+	display: inline;
+}
+
+.thumbnail {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
